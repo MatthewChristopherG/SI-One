@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styleDashboard.css" />
+    <link rel="stylesheet" href="styleNilai.css" />
   </head>
   <body>
     <!-- SIDEBAR -->
@@ -58,15 +58,32 @@
     <div class="main-content">
       <div class="header-content">
         <div class="dasboard-content">
-          <h1 class="dshbrd">Dashboard</h1>
+          <h1 class="dshbrd">Nilai</h1>
         </div>
       </div>
       <div class="isi">
-        <div class="labelInformasiGanjar">
-          <h1 class="Ganjar">Informasi Seminar Nasional</h1>
-        </div>
-        <div class="Poster-Ganjar">
-          <img class="ganjar" src="src/ganjar.jpeg" />
+
+        <div class="card">
+          <div class="card-header">
+              <div class="labelNilai">
+                Nilai
+              </div>
+            </div>
+            <div class="card-container">
+                <form>
+                    <select class="tahunAjaran">
+                      <option value="Reguler Ganjil 2023/2024">Reguler Ganjil 2023/2024</option>
+                      <option value="Reguler Genap 2022/2023">Reguler Genap 2022/2023</option>
+                      <option value="Reguler Ganjil 2022/2023">Reguler Ganjil 2022/2023</option>
+                      <option value="Reguler Genap 2021/2022">Reguler Genap 2021/2022</option>
+                      <option value="Reguler Ganjil 2021/2022">Reguler Ganjil 2021/2022</option>
+                    </select>
+                  </form><br/>
+                  Data Nilai
+                  <div class="NilaiMahasiswa">
+                  </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
