@@ -1,3 +1,4 @@
+/* SIDEBAR */
 * {
   font-family: "Ubuntu", sans-serif;
   padding: 0;
@@ -92,10 +93,12 @@
   background-color: #111827;
   box-sizing: border-box;
 }
+
 .sidebar {
   border-right: silver solid;
 }
 
+/* dashboard */
 .dshbrd {
   padding-top: 25px;
   padding-left: 25px;
@@ -110,49 +113,22 @@ div.isi {
   border-radius: 10px;
 }
 
-.card {
-  width: 1182px;
-  height: 500px;
-  background-color: #111827;
-  color: #fff;
-  border-radius: 10px;
+img.ganjar {
+  width: 550px;
+  height: 100%;
+  margin: 25px;
+  margin-top: 10px;
 }
 
-.labelNilai {
-  font-size: 20px;
-  margin: 15px;
-  padding-top: 15px;
-  padding-left: 10px;
+.main-content {
+  background: #f5f5fa;
 }
 
-.tahunAjaran {
-  padding-right: 50px;
-}
-
-.card-container {
-  width: 1157px;
-  height: 500px;
-  padding-top: 15px;
-  padding-left: 25px;
-  border-radius: 10px;
-}
-
-.NilaiMahasiswa {
-  width: 1100px;
-  height: 350px;
-  background: black;
-}
-
-table {
-  width: 1100px;
-  height: 300px;
-  text-align: center;
-}
-
-td {
-  border-bottom: silver solid;
-}
-
-.IPS {
-  padding: 25px 0px 0px 25px;
+.labelInformasiGanjar {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  border-bottom: silver #111827 solid;
+  padding-top: 10px;
+  padding-left: 15px;
 }

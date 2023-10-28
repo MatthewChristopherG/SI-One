@@ -137,22 +137,13 @@ div.isi {
   border-radius: 10px;
 }
 
-.NilaiMahasiswa {
-  width: 1100px;
-  height: 350px;
-  background: black;
-}
-
 table {
   width: 1100px;
-  height: 300px;
+  height: 100px;
   text-align: center;
 }
 
 td {
   border-bottom: silver solid;
-}
-
-.IPS {
-  padding: 25px 0px 0px 25px;
+  height: 60px;
 }
