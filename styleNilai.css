@@ -113,8 +113,8 @@ div.isi {
 .card {
   width: 1182px;
   height: 500px;
-  background-color: #111827;
-  color: #fff;
+  background-color: #f0f0f0;
+  color: black;
   border-radius: 10px;
 }
 
@@ -140,7 +140,6 @@ div.isi {
 .NilaiMahasiswa {
   width: 1100px;
   height: 350px;
-  background: black;
 }
 
 table {
@@ -155,4 +154,9 @@ td {
 
 .IPS {
   padding: 25px 0px 0px 25px;
+}
+
+td.atas {
+  background-color: #111827;
+  color: #f0f0f0;
 }

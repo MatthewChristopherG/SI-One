@@ -65,100 +65,220 @@
 
         <div class="card">
           <div class="card-header">
-              <div class="labelNilai">
-                Input Portofolio
+              <div class="label">
+                <h2><b>Input Portofolio</b></h2>
               </div>
             </div>
             <div class="card-container">
                 <form>
                     <select class="tahunAjaran">
-                      <option value="Reguler Ganjil 2023/2024">Reguler Ganjil 2023/2024</option>
-                      <option value="Reguler Genap 2022/2023">Reguler Genap 2022/2023</option>
-                      <option value="Reguler Ganjil 2022/2023">Reguler Ganjil 2022/2023</option>
-                      <option value="Reguler Genap 2021/2022">Reguler Genap 2021/2022</option>
-                      <option value="Reguler Ganjil 2021/2022">Reguler Ganjil 2021/2022</option>
+                      <option value="PENALARAN & KEILMUAN">PENALARAN & KEILMUAN</option>
+                      <option value="ORGANISASI & KEPEMIMPINAN">ORGANISASI & KEPEMIMPINAN</option>
+                      <option value="MINAT & BAKAT">MINAT & BAKAT</option>
+                      <option value="PENGABDIAN PADA MASYARAKAT">PENGABDIAN PADA MASYARAKAT</option>
+                      <option value="MERDEKA BELAJAR KAMPUS MERDEKA">MERDEKA BELAJAR KAMPUS MERDEKA</option>
+                      <option value="LAINNYA">LAINNYA</option>
                     </select>
                   </form><br/>
-                    <Table>
+                    <table>
                       <tr>
-                        <td>SENIN</td>
-                        <td>MATA KULIAH<br/>
-                        PENGENALAN DATA ENGINEERING</td>
-                        <td>KODE MK<br/>
-                        BIE03</td>
-                        <td>SKS<br/>
-                        3</td>
-                        <td>KELAS<br/>
-                        A</td>
-                        <td>WAKTU<br/>
-                        07:00-09:30</td>
-                        <td>RUANG<br/>
-                        Lab Ent. 2</td>
+                        <td>Kategori</td>
+                        <td><form><input type="text">
+                        </form></td>
                       </tr>
 
                       <tr>
-                        <td>SELASA</td>
-                        <td>MATA KULIAH<br/>
-                            SISTEM PENDUKUNG KEPUTUSAN</td>
-                        <td>KODE MK<br/>
-                            BI921</td>
-                        <td>SKS<br/>
-                        3</td>
-                        <td>KELAS<br/>
-                        A</td>
-                        <td>WAKTU<br/>
-                        09:31-12:00</td>
-                        <td>RUANG<br/>
-                        Lab Ent. 2</td>
+                        <td>Judul</td>
+                        <td><form><input type="text">
+                        </form></td>
                       </tr>
+                      
                       <tr>
-                        <td>RABU</td>
-                        <td>MATA KULIAH<br/>
-                            PEMROGRAMAN WEB</td>
-                        <td>KODE MK<br/>
-                            BIE02</td>
-                        <td>SKS<br/>
-                        4</td>
-                        <td>KELAS<br/>
-                        A</td>
-                        <td>WAKTU<br/>
-                            07:00:00 - 09:30:00</td>
-                        <td>RUANG<br/>
-                            Lab Networking</td>
-                      </tr>
-                      <tr>
-                        <td>KAMIS</td>
-                        <td>MATA KULIAH<br/>
-                            KECERDASAN BISNIS</td>
-                        <td>KODE MK<br/>
-                            BIG03</td>
-                        <td>SKS<br/>
-                        3</td>
-                        <td>KELAS<br/>
-                        A</td>
-                        <td>WAKTU<br/>
-                            09:31:00 - 12:00:00</td>
-                        <td>RUANG<br/>
-                        	Lab Prog. 2</td>
-                      </tr>
-                      <tr>
-                        <td>JUMAT</td>
-                        <td>MATA KULIAH<br/>
-                            BAHASA INGGRIS UNTUK BISNIS</td>
-                        <td>KODE MK<br/>
-                            BIE04</td>
-                        <td>SKS<br/>
-                        2</td>
-                        <td>KELAS<br/>
-                        A</td>
-                        <td>WAKTU<br/>
-                            07:00:00 - 09:00:00</td>
-                        <td>RUANG<br/>
-                        Lab Prog. 1</td>
+                        <td>Tanggal</td>
+                        <td><form><input type="date">
+                        </form></td>
                       </tr>
 
-                    </Table>
+
+                      <tr>
+                        <td>Tempat</td>
+                        <td><form><input type="text">
+                        </form></td>
+                      </tr>
+
+                      <tr>  
+                        <td>Tingkat</td>
+                        <td><form><select>
+                          <option>International</option>
+                          <option>National</option>
+                          <option>Tidak Terakreditasi</option>
+                        </select>
+                        </form></td>
+                      </tr>
+
+                      <tr>
+                        <td>Posisi / Jabatan</td>
+                        <td><form>
+                          <select>
+                            <option>Ketua</option>
+                            <option>Anggota</option>
+                          </select>
+                        </form></td>
+                      </tr>
+
+                      <tr>
+                        <td>Deskripsi</td>
+                        <td><form><textarea></textarea>
+                        </form></td>
+                      </tr>
+                      <tr>
+                        <td>Kategori</td>
+                        <td><form><input type="text">
+                        </form></td>
+                      </tr>
+                    </table>
+                    <div class="submit">
+                      <input type="submit" value="SUBMIT">
+                    </div>
                   </div>
+                </div>
+        </div>
+        
+        <div class="card-hasil">
+          <div class="card-header-hasil">
+              <div class="label">
+                <b>Hasil Portofolio</b>
+              </div><div class="dataDiri">
+              Nama                  :     Jhon Doe<br/>
+              NRP                   :     2173940<br/>
+              Fakultas / Jurusan    :     Fakultas Teknologi Informasi / S-1 Sistem Informasi<br/>
+            </div>
+            <div class="card-container-hasil"><br/>
+              <span class="label-hasil-porto">PENALARAN & KEILMUAN</span>
+              <table class="hasilPortoPenalaran">
+                <tr class="atas">
+                  <td class="cols">No</td>
+                  <td class="cols">Kegiatan</td>
+                  <td class="cols">Waktu Pelaksanaan</td>
+                  <td class="cols">Tingkat</td>
+                  <td class="cols">Keterangan</td>
+                  <td class="cols">Point</td>
+                </tr>
+
+                <tr>
+                  <td class="cols">1</td>
+                  <td class="cols">Dean List</td>
+                  <td class="cols">02/02/2022</td>
+                  <td class="cols">1</td>
+                  <td class="cols">Dikirim melalui email</td>
+                  <td class="cols">5</td>
+                </tr>
+
+                <tr>
+                  <td class="cols">2</td>
+                  <td class="cols">OUTSTANDING ACADEMIC ACHIEVEMENT Semester Genap 2021/2022</td>
+                  <td class="cols">25/08/2022</td>
+                  <td class="cols">1</td>
+                  <td class="cols">	Mendapat Dean List</td>
+                  <td class="cols">5</td>
+                </tr>
+              </table>
+                  </div>
+
+                  <div class="card-container-hasil"><br/>
+                    <span class="label-hasil-porto">ORGANISASI & KEPEMIMPINAN</span>
+                    <table class="hasilPortoPenalaran">
+                      <tr class="atas">
+                        <td class="cols">No</td>
+                        <td class="cols">Kegiatan</td>
+                        <td class="cols">Waktu Pelaksanaan</td>
+                        <td class="cols">Tingkat</td>
+                        <td class="cols">Keterangan</td>
+                        <td class="cols">Point</td>
+                      </tr>
+      
+                      <tr>
+                        <td class="cols">1</td>
+                        <td class="cols">Integer 2022</td>
+                        <td class="cols">10/09/2022</td>
+                        <td class="cols">Fakultas / Program Studi</td>
+                        <td class="cols">Menjadi koordinator divisi Toolkit dalam kegiatan orientasi fakultas, membantu dalam peminjaman prasarana di Universitas Kristen Maranatha</td>
+                        <td class="cols">25</td>
+                      </tr>
+      
+                      <tr>
+                        <td class="cols">2</td>
+                        <td class="cols">Koordinator Non-Akademik Senat Mahasiswa Fakultas Teknologi Informasi 2022/2023</td>
+                        <td class="cols">07/02/2022</td>
+                        <td class="cols">Fakultas / Program Studi</td>
+                        <td class="cols">Koordinator Non-Akademik</td>
+                        <td class="cols">35</td>
+                      </tr>
+                    </table>
+                        </div>
+
+                        <div class="card-container-hasil"><br/>
+                          <span class="label-hasil-porto">MINAT & BAKAT</span>
+                          <table class="hasilPortoPenalaran">
+                            <tr class="atas">
+                              <td class="cols">No</td>
+                              <td class="cols">Kegiatan</td>
+                              <td class="cols">Waktu Pelaksanaan</td>
+                              <td class="cols">Tingkat</td>
+                              <td class="cols">Keterangan</td>
+                              <td class="cols">Point</td>
+                            </tr>
+            
+                            <tr>
+                              <td class="cols-minbak" colspan="6">data tidak ditemukan</td>
+                            </tr>
+                          </table>
+                              </div>
+
+                              <div class="card-container-hasil"><br/>
+                                <span class="label-hasil-porto">PENGABDIAN PADA MASYARAKAT</span>
+                                <table class="hasilPortoPenalaran">
+                                  <tr class="atas">
+                                    <td class="cols">No</td>
+                                    <td class="cols">Kegiatan</td>
+                                    <td class="cols">Waktu Pelaksanaan</td>
+                                    <td class="cols">Tingkat</td>
+                                    <td class="cols">Keterangan</td>
+                                    <td class="cols">Point</td>
+                                  </tr>
+                  
+                                  <tr>
+                                    <td class="cols">1</td>
+                                    <td class="cols">Mempersiapkan Guru untuk Pembelajaran Modul Algoritma Pemograman pada Kurikulum Informatika SMP</td>
+                                    <td class="cols">19/01/2022</td>
+                                    <td class="cols">Lokal</td>
+                                    <td class="cols">Memegang oprasional Zoom meet, melampirkan link presensi dan evaluasi, dan dokumentasi</td>
+                                    <td class="cols">25</td>
+                                  </tr>
+                  
+                        
+                                </table>
+                                    </div>
+
+                                    <div class="card-container-hasil"><br/>
+                                      <span class="label-hasil-porto">MERDEKA BELAJAR KAMPUS MERDEKA</span>
+                                      <table class="hasilPortoPenalaran">
+                                        <tr class="atas">
+                                          <td class="cols">No</td>
+                                          <td class="cols">Kegiatan</td>
+                                          <td class="cols">Waktu Pelaksanaan</td>
+                                          <td class="cols">Tingkat</td>
+                                          <td class="cols">Keterangan</td>
+                                          <td class="cols">Point</td>
+                                        </tr>
+                                        <tr>
+                                          <td class="cols-minbak" colspan="6">data tidak ditemukan</td>
+                                        </tr>
+                                   </table>
+                                          </div>
+
+
+                  
                 </div>
         </div>
       </div>
